@@ -1,3 +1,9 @@
+macro_clipboard: macro_clipboard{
+compatible = "zmk,behavior-macro";
+label = "macro_clipboard";
+#binding-cells = <0>;
+bindings = <&kp LEFT_COMMAND>, <&kp LEFT_ALT>, <&kp C>;
+};
 macro_macro_esc: macro_macro_esc{
 compatible = "zmk,behavior-macro";
 label = "macro_macro_esc";
