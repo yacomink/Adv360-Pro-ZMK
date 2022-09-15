@@ -60,9 +60,9 @@
         layer_fn {
             bindings = <
            &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6            &tog 1   &mo 3  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
-           &kp ESC  &trans &kp LCTRL(LGUI(K))  &kp LCTRL(LGUI(UP))  &kp LCTRL(LGUI(L))  &trans             &none   &none  &trans  &trans  &trans   &trans   &trans   &trans
-           &trans  &trans  &kp LCTRL(LGUI(LEFT))  &kp LCTRL(LGUI(Z))  &kp LCTRL(LGUI(RIGHT))  &trans             &none  &trans  &trans                   &trans   &trans    &none  &trans  &trans  &trans  &trans  &trans  &trans
-           &trans  &trans  &kp LCTRL(LGUI(COMMA))  &kp LCTRL(LGUI(DOWN))  &kp LCTRL(LGUI(DOT))  &trans             &none   &none  &trans   &none   &none   &trans    &none    &none  &trans  &trans  &trans  &trans  &trans  &trans
+           &kp ESC  &trans &kp LC(LG(K))  &kp LC(LG(UP))  &kp LC(LG(L))  &trans             &none   &none  &trans  &trans  &trans   &trans   &trans   &trans
+           &trans  &trans  &kp LC(LG(LEFT))  &kp LC(LG(Z))  &kp LC(LG(RIGHT))  &trans             &none  &trans  &trans                   &trans   &trans    &none  &trans  &trans  &trans  &trans  &trans  &trans
+           &trans  &trans  &kp LC(LG(COMMA))  &kp LC(LG(DOWN))  &kp LC(LG(DOT))  &trans             &none   &none  &trans   &none   &none   &trans    &none    &none  &trans  &trans  &trans  &trans  &trans  &trans
            &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans   &trans   &trans   &trans  &trans  &trans
             >;
         };
