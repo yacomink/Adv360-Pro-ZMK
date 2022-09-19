@@ -2,12 +2,18 @@ macro_vscode_keep: macro_vscode_keep{
 compatible = "zmk,behavior-macro";
 label = "macro_vscode_keep";
 #binding-cells = <0>;
-bindings = <&kp LG(K)>, <&kp ENT>;
+bindings = <&kp LG(K)>, <&kp ENTER>;
 };
 macro_clipboard: macro_clipboard{
 compatible = "zmk,behavior-macro";
 label = "macro_clipboard";
 #binding-cells = <0>;
 bindings = <&kp LG(LA(C))>;
+};
+macro_mute: macro_mute{
+compatible = "zmk,behavior-macro";
+label = "macro_mute";
+#binding-cells = <0>;
+bindings = <&kp LA(LS(M))>;
 };
 
