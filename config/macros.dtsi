@@ -16,4 +16,3 @@ label = "macro_mute";
 #binding-cells = <0>;
 bindings = <&kp LA(LS(M))>;
 };
-
